@@ -25,7 +25,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 <img src="walkthrough.gif" title='Video Walkthrough' width=250><br>
 
 ### Notes
-Gradle issues were the most concerning in my coding. First issue was that the sync process when creating a new project was receiving errors. After some time googling and configurations on my Andriod Studio program I was able to get Gradle to properly sync and build my app. 
+Everything was fine until I tried to display images and text. Turns out my function getItemCount was set to return 0 instead of movies.size(). Thanks to Edidiong Ekong for finding my error!
 
 ### Open-source libraries used
 
